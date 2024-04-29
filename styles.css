@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+    background: #f4f4f4;
+}
+
+h1 {
+    color: #333;
+}
+
+.cheat-sheet {
+    width: 100%;
+    margin-bottom: 20px;
+    border-collapse: collapse;
+    background: #fff;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.cheat-sheet th,
+.cheat-sheet td {
+    border: 1px solid #dddddd;
+    padding: 10px;
+    text-align: left;
+}
+
+.cheat-sheet th {
+    background-color: #333;
+    color: #ffffff;
+}
+
+.cheat-sheet tr {
+    background-color: #ffffff;
+}
+
+.cheat-sheet tr:nth-child(odd) {
+    background-color: #f9f9f9;
+}
+
+.cheat-sheet td {
+    font-family: "Courier New", monospace;
+    background-color: #eeeeee;
+    padding: 2px 4px;
+    border-radius: 3px;
+}
